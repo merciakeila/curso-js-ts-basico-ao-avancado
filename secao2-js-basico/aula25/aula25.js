@@ -1,4 +1,4 @@
-// Manipulação de STRING
+// MANIPULANDO STRING
 
 let string = '1234'
  
