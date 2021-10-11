@@ -1,20 +1,30 @@
+//Exemplo 1: Repetição de números de 0 a 5
+// let i = 0;
+// for (i; i <= 5; i++) {
+//     console.log('Linha: ', i);
+// }
+
+//Exemplo 2: Exibindo números de 0 a 10 se são par ou impar será exeibido true ou false.
 /*
-Atribuição via desustruturação com Objetos
+let a = 0;
+for (a; a <= 10; a++) {
+    const par = a % 2 === 0;
+    console.log(a, par);
+}
 */
 
-const pessoa = {
-    nome: 'Luiz',
-    sobrenome: 'Miranda',
-    idade: 30,
-    endereco: {
-        rua: 'Av Brasil',
-        numero: 320,
-    }
-}
+//Exemplo 3: Exibindo números de 0 a 10 se são par ou impar e também exibir uma mensagem se é par ou impar.
+// let a = 0;
+// for (a; a <= 10; a++) {
+//     const par = a % 2 === 0 ? 'Par' : 'Impar';
+//     console.log(a, par);
+// }
 
-const { nome, sobrenome, endereco } = pessoa;
-console.log(pessoa)
-console.log(endereco)
+//Exemplo 3:
 
-const { endereco: { rua, numero } } = pessoa;
-console.log(rua, numero) //Av Brasil 320
+// const frutas = ['Maçã', 'Pêra', 'Uva', 'Otávio', 'Luiz', 'Miranda'];
+
+// let i = 0;
+// for (i; i <= frutas.length; i++) {
+//     console.log(`Índice ${i}`, frutas[i]);
+// }
